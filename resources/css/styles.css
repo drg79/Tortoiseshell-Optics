@@ -161,8 +161,22 @@ ul li {
   width: 10rem;
     }
 
-.info-box p {
-
-}
 
 /*FOOTER*/
+
+footer {
+  background-color: azure;
+  height: 9.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .company-logo {
+  padding-left: 2rem;
+  }
+
+  footer span {
+    margin-left: 1rem;
+  }
