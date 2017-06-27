@@ -111,7 +111,7 @@ ul li {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+
     margin: 3rem;
     width: 5rem;
     height: 8rem;
@@ -142,19 +142,41 @@ ul li {
 /*INFO SECTION*/
 .info-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .info-box {
   width: 35%;
+    margin-right: 5%;
 }
+
 
 .info-box h2 {
   background-color: cadetblue;
   font-weight: bold;
   font-size: 1rem;
   color: white;
-}
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+    }
 
 
 /*FOOTER*/
+
+footer {
+  background-color: azure;
+  height: 9.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .company-logo {
+  padding-left: 2rem;
+  }
+
+  footer span {
+    margin-left: 1rem;
+  }
