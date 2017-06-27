@@ -101,6 +101,48 @@ margin: 2rem 4rem;
 
 /*ICONS SECTION*/
 
+.icons-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+
+.icon img.paper-icon {
+  width: 3.5rem;
+}
+
+.icon img.ruler-icon {
+  width: 5rem;
+  }
+
+  .icon img.truck-icon {
+    width: 5rem;
+    }
+
+
+
+}
+.icon img {
+  width: 3.5rem;
+
+
+}
+
+.icon p {
+  text-align: center;
+
+}
 
 
 /*INFO SECTION*/
