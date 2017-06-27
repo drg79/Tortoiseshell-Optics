@@ -80,21 +80,29 @@ ul li {
 .banner-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .headline-box {
-  position: relative;
+  
   left: 2rem;
   background-color: white;
-  display: flex;
+  display: inline-block;
   margin-top: 10rem;
-  margin-left: 18rem;
+  width: 25rem;
+  margin-right: -2rem;
 
-  }
+    }
 
-  .headline h1 {
+
+.headline {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+}
+  .headline span {
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.2rem;
-    padding: 1.5rem 5rem;
+
   }
