@@ -83,9 +83,13 @@ ul li {
 }
 
 .headline-box {
+  position: relative;
+  left: 2rem;
   background-color: white;
   display: flex;
   margin-top: 10rem;
+  margin-left: 18rem;
+
   }
 
   .headline h1 {
