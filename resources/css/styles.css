@@ -90,7 +90,7 @@ ul li {
     }
 
 .headline {
-margin: 2rem 4rem;
+  margin: 2rem 4rem;
 }
 
   .headline h1 {
@@ -104,7 +104,6 @@ margin: 2rem 4rem;
 .icons-container {
   display: flex;
   justify-content: center;
-
 }
 
 .icon {
@@ -124,27 +123,38 @@ margin: 2rem 4rem;
 
 .icon img.ruler-icon {
   width: 5rem;
-  }
+}
 
-  .icon img.truck-icon {
+.icon img.truck-icon {
     width: 5rem;
-    }
-
-
+}
 
 }
 .icon img {
   width: 3.5rem;
-
-
 }
 
 .icon p {
   text-align: center;
-
 }
 
 
 /*INFO SECTION*/
+.info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-box {
+  width: 35%;
+}
+
+.info-box h2 {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
 
 /*FOOTER*/
