@@ -180,10 +180,20 @@ footer .company-logo {
     margin-left: 1rem;
 }
 
+
 /*media queries and styles*/
+
+
+.mobile-menu {
+  display: none;
+}
 
 /* 960px*/
 @media only screen and (max-width: 960px) and (min-width: 470px) {
+
+  .site-container {
+    max-width: 100%;
+  }
 
 /*menu snap to top*/
 .header {
@@ -194,18 +204,66 @@ footer .company-logo {
 .headline-box {
   margin-right: 2rem;
   margin-top: 5rem;
-
     }
 
 /*change headline spacing and size*/
 .headline {
-  margin: 1rem 4rem;
+  margin: 1.5rem 4rem;
 }
 
   .headline h1 {
     font-size: 1.3rem;
   }
 
+  .banner-img {
+    background-position: 30%;
+  }
+
+}
+
+/* 470px*/
+@media only screen and (max-width: 470px) {
+
+    .site-container {
+      max-width: 100%;
+    }
+
+.desktop-menu {
+  display: none;
+}
+
+.flex-container {
+
+}
 
 
+.headline-box {
+width: 100%;
+  margin-top: 19rem;
+
+margin-right: 0;
+
+
+    }
+
+    .headline {
+      margin: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+
+
+      .headline h1 {
+        font-size: 1rem;
+      }
+
+.mobile-menu {
+  display: block;
+  background-color: cadetblue;
+  margin-right: 2rem;
+  color: white;
+}
+
+.banner-img {
+  background-position: 20%;
 }
