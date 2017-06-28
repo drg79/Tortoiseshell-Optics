@@ -111,8 +111,7 @@ ul li {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    margin: 3rem;
+    margin: 3rem;
     width: 5rem;
     height: 8rem;
 }
@@ -147,7 +146,7 @@ ul li {
 
 .info-box {
   width: 35%;
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 
@@ -159,7 +158,7 @@ ul li {
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
   width: 10rem;
-    }
+}
 
 
 /*FOOTER*/
@@ -175,8 +174,8 @@ footer {
 
 footer .company-logo {
   padding-left: 2rem;
-  }
+}
 
   footer span {
     margin-left: 1rem;
-  }
+}
